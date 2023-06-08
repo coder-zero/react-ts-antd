@@ -1,0 +1,26 @@
+.user-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.user-head button,
+.user-head input {
+  margin: 0 5px;
+}
+.ant-modal-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-betwee;
+}
+.ant-modal-content .ant-modal-footer {
+  bottom: 12%;
+  position: absolute;
+  left: 34%;
+}
+.ant-modal-content .ant-modal-footer .ant-btn {
+  margin-right: 50px;
+}
+.edit-modal {
+  position: relative;
+}
