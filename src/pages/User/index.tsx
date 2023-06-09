@@ -143,12 +143,12 @@ const User: React.FC = () => {
         const result = await reqDeleteUserList({ keylist: [record.id] })
         //删除后更新页面
         setUserList(result.data)
-        message.success('Click on Yes');
+        message.success('删除成功');
     };
 
     const cancel = (e: any) => {
         console.log(e);
-        message.error('Click on No');
+        message.error('取消删除');
     };
     const [selectedRowKeys, setSelectedRowKeys] = useState<React.Key[]>([]);
 
